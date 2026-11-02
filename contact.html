@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Pumla's Eatery for food enquiries, orders, feedback, or general questions about our menu and meals.">
+    <meta name="keywords" content="contact Pumla's Eatery, food enquiries, burger restaurant contact, fast food questions">
+    <meta name="author" content="Pumla's Eatery">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; font-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), camera=(), microphone=()">
+    <link rel="canonical" href="https://www.pumlas-eatery.co.za/contact.html">
+    <link rel="stylesheet" href="css_assets/myfirststyles.css">
+    <title>Contact Pumla's Eatery | Enquiries, Orders & Feedback</title>
+</head>
+
+<body>
+
+    <header>
+
+        <img src="_images/logo.png" alt="Pumla's Eatery logo" class="logo" fetchpriority="high" decoding="async">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="enquiries.html">Enquiries</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h1>Contact Us</h1>
+        <p>
+            We would love to hear from you.
+        </p>
+
+        <p>
+            Email: pumlaseatery@gmail.com
+        </p>
+
+        <p>
+            Phone: 013 535 6678
+        </p>
+
+    </main>
+
+    <footer>
+<section class="contact-section">
+    <h2>Contact Us</h2>
+    <p>We would love to hear from you! Send us a message below.</p>
+
+    <form id="contactForm" action="#" method="post" novalidate>
+
+        <label for="contactName">Full Name</label>
+        <input type="text" id="contactName" name="fullName"
+               required minlength="2" maxlength="80" inputmode="text" autocapitalize="words">
+
+        <label for="contactEmail">Email Address</label>
+        <input type="email" id="contactEmail" name="email"
+               required maxlength="120" inputmode="email">
+
+        <label for="messageType">Message Type</label>
+        <select id="messageType" name="messageType" required>
+            <option value="">Select a message type</option>
+            <option value="feedback">Feedback</option>
+            <option value="complaint">Complaint</option>
+            <option value="compliment">Compliment</option>
+            <option value="general">General Message</option>
+        </select>
+
+        <label for="contactMessage">Your Message</label>
+        <textarea id="contactMessage" name="message"
+                  rows="5" required minlength="10" maxlength="1000"></textarea>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+</section>
+
+        <p>&copy; 2026 Pumla's Eatery. All rights observed.</p>
+
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+
+</html>

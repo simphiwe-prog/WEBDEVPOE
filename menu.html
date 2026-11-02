@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the menu at Pumla's Eatery featuring burgers, fried chips, ice cream, milkshakes, and cold drinks.">
+    <meta name="keywords" content="Pumla's Eatery menu, burgers, chips, ice cream, milkshakes, cold drinks, fast food menu">
+    <meta name="author" content="Pumla's Eatery">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; font-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), camera=(), microphone=()">
+    <link rel="canonical" href="https://www.pumlas-eatery.co.za/menu.html">
+    <link rel="stylesheet" href="css_assets/myfirststyles.css">
+    <title>Pumla's Eatery Menu | Burgers, Chips, Ice Cream & Drinks</title>
+</head>
+
+<body>
+    <header>
+        <img src="_images/logo.png" alt="Pumla's Eatery logo" class="logo" fetchpriority="high" decoding="async">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="enquiries.html">Enquiries</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Our Products</h1>
+
+        <section>
+            <div class="menu-search">
+                <label for="menuSearch">Search our menu:</label>
+                <input type="text" id="menuSearch" placeholder="Search burgers, chips, milkshakes..." autocomplete="off">
+                <p id="searchMessage" aria-live="polite"></p>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <h2>Burgers</h2>
+            <div class="gallery-grid">
+                <figure class="gallery-item">
+                    <img src="_images/burger.jpg" alt="Pumla's Eatery burger" class="responsive-image gallery-image" data-full="_images/burger.jpg" loading="lazy" decoding="async">
+                    <figcaption>Burger</figcaption>
+                </figure>
+            </div>
+            <p>Mouth watering burgers made with fresh ingredients.</p>
+        </section>
+
+        <section class="gallery-section">
+            <h2>Fried chips</h2>
+            <div class="gallery-grid">
+                <figure class="gallery-item">
+                    <img src="_images/chips.jpg" alt="Crispy fried chips from Pumla's Eatery" class="responsive-image gallery-image" data-full="_images/chips.jpg" loading="lazy" decoding="async">
+                    <figcaption>Fried Chips</figcaption>
+                </figure>
+            </div>
+            <p>Crispy and golden fried chips.</p>
+        </section>
+
+        <section class="gallery-section">
+            <h2>Ice Cream</h2>
+            <div class="gallery-grid">
+                <figure class="gallery-item">
+                    <img src="_images/icecream.jpg" alt="Creamy ice cream served at Pumla's Eatery" class="responsive-image gallery-image" data-full="_images/icecream.jpg" loading="lazy" decoding="async">
+                    <figcaption>Ice Cream</figcaption>
+                </figure>
+            </div>
+            <p>Creamy and delicious ice cream.</p>
+        </section>
+
+        <section class="gallery-section">
+            <h2>Drinks</h2>
+            <div class="gallery-grid">
+                <figure class="gallery-item">
+                    <img src="_images/drinks.jpg" alt="Cold drinks at Pumla's Eatery" class="responsive-image gallery-image" data-full="_images/drinks.jpg" loading="lazy" decoding="async">
+                    <figcaption>Cold Drinks</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="_images/milkshake.jpg" alt="Milkshake at Pumla's Eatery" class="responsive-image gallery-image" data-full="_images/milkshake.jpg" loading="lazy" decoding="async">
+                    <figcaption>Milkshake</figcaption>
+                </figure>
+            </div>
+            <p>A selection of cold, refreshing drinks.</p>
+        </section>
+    </main>
+
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+        <button type="button" class="lightbox-close" aria-label="Close image">&times;</button>
+        <img id="lightbox-image" src="" alt="">
+        <p id="lightbox-caption"></p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Pumla's Eatery. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

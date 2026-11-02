@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Send an enquiry to Pumla's Eatery about menu options, prices, food orders, or general questions.">
+    <meta name="keywords" content="Pumla's Eatery enquiries, menu questions, food orders, restaurant enquiry">
+    <meta name="author" content="Pumla's Eatery">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; font-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), camera=(), microphone=()">
+    <link rel="canonical" href="https://www.pumlas-eatery.co.za/enquiries.html">
+    <link rel="stylesheet" href="css_assets/myfirststyles.css">
+    <title>Enquiries | Pumla's Eatery</title>
+</head>
+
+<body>
+
+    <header>
+
+        <img src="_images/logo.png" alt="Pumla's Eatery logo" class="logo" fetchpriority="high" decoding="async">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="enquiries.html">Enquiries</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <h1>Enquiries</h1>
+
+        <p>
+            For enquiries about our services and products, please contact Pumla's Eatery.
+        </p>
+
+    </main>
+
+    <footer>
+        <section class="enquiry-section">
+    <h2>Make an Enquiry</h2>
+    <p>Have a question about our menu or prices? Send us a message.</p>
+
+    <form id="enquiryForm" action="#" method="post" novalidate>
+
+        <label for="enquiryName">Full Name</label>
+        <input type="text" id="enquiryName" name="fullName"
+               required minlength="2" maxlength="80" inputmode="text" autocapitalize="words">
+
+        <label for="enquiryEmail">Email Address</label>
+        <input type="email" id="enquiryEmail" name="email"
+               required maxlength="120" inputmode="email">
+
+        <label for="enquiryType">What is your enquiry about?</label>
+        <select id="enquiryType" name="enquiryType" required>
+            <option value="">Choose an option</option>
+            <option value="menu">Menu and food</option>
+            <option value="prices">Prices</option>
+            <option value="orders">Food orders</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="enquiryMessage">Your Message</label>
+        <textarea id="enquiryMessage" name="message"
+                  rows="5" required minlength="10" maxlength="1000"></textarea>
+
+        <button type="submit">Submit Enquiry</button>
+
+    </form>
+</section>
+        <p>&copy; 2026 Pumla's Eatery. All rights reserved</p>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
